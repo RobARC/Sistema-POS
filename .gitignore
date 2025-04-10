@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Archivos de entorno
+.env
+*.env
+
+# SQLite database
+*.sqlite
+*.db
+
+# Streamlit
+.streamlit/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de facturas generadas (si no quieres versionarlos)
+factura/*.pdf
+
+# Configuración de VSCode u otros editores
+.vscode/
+.idea/
