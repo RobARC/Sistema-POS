@@ -8,4 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "src/app.py"]
+# Establecer el directorio de trabajo como /app/src
+WORKDIR /app/src
+
+CMD ["python", "app.py"]
