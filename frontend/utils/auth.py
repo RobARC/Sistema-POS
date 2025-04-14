@@ -11,6 +11,8 @@ def authenticate(username, password):
         "password": password
     }   
 
+    print(auth_url)
+
     url = auth_url + "/login"
 
     try:

@@ -16,6 +16,7 @@ fill_clients()    # Llena tabla clientes
 
 @app.route('/login', methods=['POST'])
 def get_login():
+    print('llegue al login')
     return login()
 
 @app.route('/api/products', methods=['GET'])
