@@ -22,7 +22,7 @@ ENV/
 *.db
 
 # Streamlit
-.streamlit/
+#.streamlit/
 
 # Archivos del sistema
 .DS_Store

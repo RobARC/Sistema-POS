@@ -1,0 +1,6 @@
+[client]
+showSidebarNavigation = false
+
+[auth]
+# auth_url = 'http://127.0.0.1:5001'
+auth_url = "http://backend:5001"
